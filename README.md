@@ -10,7 +10,7 @@ There were 369,711 votes cast in the election.
 Jefferson: 10.5% (38,855)
 Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
-
+![스크린샷(70)](https://user-images.githubusercontent.com/85276431/126020150-3fbe8de8-8ea6-44be-901b-c64b19f31946.png)
 - Which county had the largest number of votes?
 Denver, 306,055 votes
 
