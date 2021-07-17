@@ -1,29 +1,28 @@
-# Election_Analysis-
-## **Project Overview**
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calcultae the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determin the minner of the election based on popular vote.
+# Election Audit Analysis
+## Overview of Election Audit
+The purpose of this analysis is from Colorado Board of Elections employee that requested election audit for recent local congressional election
 
-## **Resources**
-- Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
-## **Summary**
-The analysis of the leection show that:
-- There were "x" votes cast in the election.
-- The candidates were:
-  - Candidate 1
-  - Candidate 2
-  - Candidate 3
- - The candidate results were:
-  - Candidate 1 received "x%" of the vote and "y" number of votes.
-  - Candidate 2 received "x%" of the vote and "y" number of votes.
-  - Candidate 3 received "x%" of the vote and "y" number of votes.
- - The winner of the election was:
-  - Candidate (1,2, or 3), who received "x%" of the vote and "y" number of votes.
- 
-## Challenge Overview
- 
-## Challenge Summary
+## Election Audit Results
+- How many votes were cast in this congressional election? 
+There were 369,711 votes cast in the election.
+
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+
+- Which county had the largest number of votes?
+Denver, 306,055 votes
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+
+## Election-Audit Summary
+Election commission can utilize this script by modifying the input variables. Adding variables such as male/female or age will provide more accurate analysis of the election. The other way it could modify is adding breakeven point where vote_county > (total_vote / 2) * 100 can provie the number of votes that makes win certain. 
